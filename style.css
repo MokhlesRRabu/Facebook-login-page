@@ -1,0 +1,37 @@
+.main-part{
+    display:flex;
+    justify-content: space-between;
+}
+
+#first-part{
+    margin-left: 250px;
+    margin-top:200px;
+    
+}
+
+#first-part > h1{
+    color:dodgerblue;
+}
+.Second{
+    background-color: rgb(235, 234, 243);
+    padding:20px 20px;
+    margin-right:400px;
+    margin-top:250px;   
+}
+.Second:hover{
+    box-shadow: 3px 3px 10px rgb(2, 16, 71);
+}
+.Second > p1{
+    border:1px solid rgb(129, 124, 124);
+    padding:5px 10px;
+}
+
+.Second > p2{
+    background-color: dodgerblue;
+    padding:5px 10px;
+}
+.Second > button{
+    background-color: dodgerblue;
+    padding:10px;
+    color:white;
+}
